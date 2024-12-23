@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -15,6 +16,7 @@
     position: relative;
     background-image: url('bgpage.jpeg.png');
 }
+
   header {
     background-color: #d5d3d390;
     color: white;
@@ -24,8 +26,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
-
 
 
 header nav ul {
@@ -84,12 +86,14 @@ header .menu-icon a {
   .menu-icon-wrapper {
     display: flex;
     align-items: center;
+    position: absolute;
+    right: 20px;
   }
   
   .menu-circle {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex;
     width: 40px;
     height: 40px;
     background: white;
